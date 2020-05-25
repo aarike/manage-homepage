@@ -1,0 +1,243 @@
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    background-repeat: repeat-y;
+    background-image: url('img/bgimg.svg');
+    background-position: top right;
+    font-size: 16px;
+    margin: 0;
+    
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
+} 
+
+
+.main  {
+    grid-area: main;
+    background-color: #dd5b33;
+    padding: 45px 150px 45px 70px;
+}
+.main button {
+   
+    background-color: blanchedalmond;
+    color: #dd5b33;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    padding: 10px 20px;
+    font-weight: 900;
+   
+}
+
+.footer {
+  
+    grid-area: footer;
+    background-color: hsl(233, 12%, 13%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.illust {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around; 
+    padding-bottom: 110px;
+    
+}
+
+a {
+    text-decoration: initial;
+    color: #dce6f0;
+}
+
+
+::placeholder,p {
+    color: hsl(227, 12%, 61%);
+  
+}
+
+.copy{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: small;
+}
+.logo {
+    padding: 50px 0px 0px 50px; 
+}
+
+.bring {
+    padding: 100px 90px 10px 140px;
+
+}
+
+.btn {
+    padding-top: 10px;
+}
+
+.loggo {
+    padding-top: 65px;
+}
+
+
+
+.imgill {
+    padding: 30px 80px 10px 120px;
+
+}
+
+.simplify {
+    padding: 0px 65px; 
+}
+
+
+.cust {
+    padding: 30px 150px 10px 140px;
+}
+
+.list {
+    padding: 30px 185px 10px 0;
+}
+
+.icon {
+    padding: 30px 80px 10px 95px; 
+}
+input {
+    padding: 12px 10px;
+    border: 1px solid  hsl(0, 0%, 98%);
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #e46f4c;
+    color: blanchedalmond;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    
+}
+
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+}
+.contain h1 {
+    color: blanchedalmond;
+}
+
+#center {
+    text-align: center;
+    padding: 30px 0px 150px;
+}
+
+#cent {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#nav {
+    text-align: center;
+    padding-top: 45px;
+    padding-left: 0;
+}
+h1, h3 {
+    color: hsl(233, 12%, 13%);
+}
+.img img{
+    border-radius: 50%;
+}
+
+#nav li {
+    display: inline;
+}
+
+ol.custom {
+    list-style-type: none;
+    margin-left: 0;
+}
+  
+ol.custom > li {
+    counter-increment: customlistcounter;
+}
+
+ol.custom > li:before {
+    content: "0" counter(customlistcounter);
+    font-weight: bold;
+    float: left;
+    width: 3em;
+    color: blanchedalmond;
+    background-color: #e46f4c;
+    border-radius: 2rem;
+    text-align: center;
+    margin-right: 2rem;
+    padding: 6px 9px;
+
+}
+
+ol.custom:first-child {
+    counter-reset: customlistcounter;
+}
+
+
+.custom p {
+    margin-left: 6.5rem;
+    
+
+}
+
+.test p {
+    margin: 0 18px;
+}
+
+#nav a {
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: smaller;
+    color: hsl(231, 5%, 26%);
+  
+}
+
+.img p {
+    font-weight: 600;
+    color: hsl(233, 12%, 13%);
+    font-size: large;
+}
+
+.test {
+    background-color: hsl(0, 0%, 98%);
+    width: 500px;
+    margin: 0px 14px;
+    text-align: center;
+    
+    
+}
+
+html {
+    line-height: 1.5;
+}
+   
